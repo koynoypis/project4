@@ -73,6 +73,7 @@ public class SessionCounter implements HttpSessionListener {
             daily_session6=daily_session7;
             daily_session7=0;
             daily_session7++;
+            now = new_date;
         }
         else{
             daily_session7++;
